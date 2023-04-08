@@ -16,17 +16,17 @@ sections:
     content:
       title: Skills
       items:
-        - name: R
+        - name: math
           description: 90%
-          icon: r-project
+          icon: plus
           icon_pack: fab
         - name: Statistics
-          description: 100%
+          description: 80%
           icon: chart-line
           icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
+        - name: Python
+          description: 60%
+          icon: list
           icon_pack: fas
   - block: experience
     content:
@@ -40,27 +40,28 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Student
+          company: RUDN
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          company_logo: ''
+          location: Moscow
+          date_start: '2022-09-01'
           date_end: ''
           description: |2-
               Responsibilities include:
+              studing
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * calculs
+              * linear algebra
+              * discret math
+        - title: Yandex lyceum Courses
+          company: Yandex
+          company_url: 'https://academy.yandex.ru/lyceum'
+          company_logo: ""
+          location: Moscow
+          date_start: '2019-09-01'
+          date_end: '2020-04-30'
+          description: Taught programming in python.
     design:
       columns: '2'
   - block: accomplishments
@@ -84,22 +85,7 @@ sections:
           organization_url: https://www.coursera.org
           title: Neural Networks and Deep Learning
           url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+        
     design:
       columns: '2'
   - block: collection
